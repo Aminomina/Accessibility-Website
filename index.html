@@ -1,0 +1,121 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>User Interface Survey</h2>
+    <section id="button-options">
+      <p>
+        Which button effect(s) do you prefer? What do you like/dislike about
+        them?
+      </p>
+      <div id="buttons">
+        <div class="button-slot">
+          <button id="button-1">1</button>
+        </div>
+        <div class="button-slot">
+          <button id="button-2">2</button>
+        </div>
+        <div class="button-slot">
+          <button id="button-3">3</button>
+        </div>
+      </div>
+      <div class="feedback">
+        <textarea
+          name="buttonfeedback"
+          id="button-feedback"
+          cols="50"
+          rows="10"
+        ></textarea>
+      </div>
+    </section>
+    <br />
+    <br />
+
+    <section id="font-options">
+      <p>Which font(s) do you prefer? What do you like/dislike about them?</p>
+      <div id="fonts">
+        <p id="jost">Font 1</p>
+        <p id="ibm">Font 2</p>
+        <p id="maven">Font 3</p>
+        <p id="pt">Font 4</p>
+        <p id="mont">Font 5</p>
+      </div>
+      <div class="feedback">
+        <textarea
+          name="fontfeedback"
+          id="font-feedback"
+          cols="50"
+          rows="10"
+        ></textarea>
+      </div>
+    </section>
+    <br />
+    <br />
+
+    <section id="color-options">
+      <p>
+        Which color scheme(s) do you prefer? What do you like/dislike about
+        them?
+      </p>
+      <div id="colors">
+        <div id="blue" class="color-sample">
+          <div class="top">
+            <h3>Title</h3>
+          </div>
+          <div class="bottom">
+            <p>Text</p>
+          </div>
+        </div>
+        <div id="green" class="color-sample">
+          <div class="top">
+            <h3>Title</h3>
+          </div>
+          <div class="bottom">
+            <p>Text</p>
+          </div>
+        </div>
+        <div id="yellow" class="color-sample">
+          <div class="top">
+            <h3>Title</h3>
+          </div>
+          <div class="bottom">
+            <p>Text</p>
+          </div>
+        </div>
+      </div>
+      <div class="feedback">
+        <textarea
+          name="colorfeedback"
+          id="color-feedback"
+          cols="50"
+          rows="10"
+        ></textarea>
+      </div>
+    </section>
+    <br />
+    <br />
+
+    <section id="overall">
+      <p>
+        Overall, what features are most important to you in a website's design?
+      </p>
+      <div class="feedback">
+        <textarea
+          name="overallfeedback"
+          id="overall-feedback"
+          cols="50"
+          rows="10"
+        ></textarea>
+      </div>
+    </section>
+    <br />
+    <br />
+
+    <section id="submit">
+      <button onclick="sendMail();">Email Submission</button>
+    </section>
+
+    <script src="functions.js"></script>
+  </body>
+</html>
